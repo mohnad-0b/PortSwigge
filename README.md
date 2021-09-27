@@ -1,6 +1,6 @@
 # PortSwigge
 ## SQL-injection LAB
-#### [SQL injection UNION attack, determining the number of columns returned by the query ] (https://github.com/mohnad-0b/PortSwigge/blob/main/SQL_LAB_01.py)
+#### [SQL injection UNION attack, determining the number of columns returned by the query ](https://github.com/mohnad-0b/PortSwigge/blob/main/SQL_LAB_01.py)
 #### SQL injection UNION attack, finding a column containing text
 #### SQL injection UNION attack, retrieving data from other tables
 #### SQL injection UNION attack, retrieving multiple values in a single column
