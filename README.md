@@ -18,4 +18,5 @@
 ## Authentication LAB
 #### [2FA simple bypass ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_02.py)
 #### [2FA broken logic ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_08.py)
+#### [Brute-forcing a stay-logged-in cookie](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_09.py)
 
