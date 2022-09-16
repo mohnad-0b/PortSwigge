@@ -1,3 +1,4 @@
+# 2FA broken logic
 import requests
 
 url = "https://0adb005f04675bdec0827bbd00340038.web-security-academy.net/login" # please change url :)
