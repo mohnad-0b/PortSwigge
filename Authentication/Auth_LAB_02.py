@@ -1,3 +1,4 @@
+# 2FA simple bypass
 import requests
 
 url = "https://0ae1009803c7997fc0bb785600d50004.web-security-academy.net" #please change url :)
