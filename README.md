@@ -16,6 +16,7 @@
 #### [SQL injection vulnerability allowing login bypass](https://github.com/mohnad-0b/PortSwigge/blob/main/SQL_Injection/SQL_LAB_14.py)
 ---
 ## Authentication LAB
+#### [Username enumeration via different responses ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_01.py)
 #### [2FA simple bypass ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_02.py)
 #### [2FA broken logic ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_08.py)
 #### [Brute-forcing a stay-logged-in cookie](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_09.py)
