@@ -1,4 +1,4 @@
-# PortSwigge                                                                                                                          
+# PortSwigger                                                                                                                          
 ## SQL-injection LAB
 #### [SQL injection UNION attack, determining the number of columns returned by the query ](https://github.com/mohnad-0b/PortSwigge/blob/main/SQL_Injection/SQL_LAB_01.py)
 #### [SQL injection UNION attack, finding a column containing text](https://github.com/mohnad-0b/PortSwigge/blob/main/SQL_Injection/SQL_LAB_02.py)
