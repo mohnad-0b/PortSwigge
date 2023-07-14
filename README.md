@@ -18,6 +18,7 @@
 ## Authentication LAB
 #### [Username enumeration via different responses ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_01.py)
 #### [2FA simple bypass ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_02.py)
+#### [Username enumeration via subtly different responses](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_04.py)
 #### [2FA broken logic ](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_08.py)
 #### [Brute-forcing a stay-logged-in cookie](https://github.com/mohnad-0b/PortSwigge/blob/main/Authentication/Auth_LAB_09.py)
 
